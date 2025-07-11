@@ -8,7 +8,8 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@nuxt/ui',
     '@nuxt/image',
-    '@nuxthub/core'
+    '@nuxthub/core',
+    'nuxt-auth-utils'
   ],
   hub: {
     database: true,
