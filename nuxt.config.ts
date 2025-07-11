@@ -9,5 +9,9 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/image',
     '@nuxthub/core'
-  ]
+  ],
+  hub: {
+    database: true,
+    blob: true
+  }
 })
